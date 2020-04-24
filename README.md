@@ -39,6 +39,7 @@ The following is the model results. Description of numbers are explained in repo
 > `pip install -r requirements.txt`
 > 
 > `python run_main.py --model 'model_name' --bert_version 'bert-base-nli-mean-tokens'
+
 > or use jupyter notbook with 'run_main.ipynb' for individual tasks
 * model_name can be {BERT, tf-idf, doc2vec}
 
