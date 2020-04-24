@@ -7,7 +7,7 @@ This purpose of this project is to map the various investment styles of all the 
 The data has been obtained from the government site data.gov. 
 
 ## Results
-The following is the model results. Description of numbers are explained in report.pdf
+The following is the model results. 
 
 | |TF-IDF | Doc2vec |bert nli mean-tokens | bert-nli-stsb mean-tokens | bert-nli max-tokens | bert-nli-mean-token using risk corpus|
 |--- |------------- | ------------- | --- | --- |--- | ---|
@@ -28,7 +28,6 @@ The following is the model results. Description of numbers are explained in repo
         ├── lipper                                                                  # Classification code per cluster 
         ├── common_stocks                                                           # Common stocks per cluster
     ├── results                                                                     # model results as txt
-    ├── report.pdf
     ├── run_main.py
     ├── run_main.ipynb
     └── README.md
